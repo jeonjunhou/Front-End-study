@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+  background-color: aquamarine;
+}
+p {
+  text-align: right;
+  background-color: yellowgreen;
+  box-shadow: 3px 3px 3px 3px wheat;
+  border-radius: 4%;
+}
+
+.first-class {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-first-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  color: yellow;
+  background-color: coral;
+  padding: 30px;
+}
+
+.first-second-class {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 200px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+.second-class {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+.second-class-1 {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+}
+.second-class-2 {
+  background-color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+}
+.second-class-3 {
+  background-color: darkslategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+}
