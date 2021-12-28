@@ -7,7 +7,7 @@ a {
   height: 500px;
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .container img {
@@ -23,7 +23,7 @@ a {
   transition: 0.5s;
 }
 
-.container span:after {
+.container span::after {
   content: "이사진은 구글에서 가져왔습니다";
   position: absolute;
   font-size: 25px;
@@ -37,12 +37,7 @@ a {
   padding-right: 400px;
 }
 
-.container:hover span:after {
+.container:hover span::after {
   opacity: 1;
   right: 0;
-}
-
-.img1 {
-  display: block;
-  margin: 0px auto;
 }
